@@ -36,8 +36,10 @@ public class SecurityConfig {
 //                .authorizeRequests().
                 .authorizeHttpRequests(auth -> auth.requestMatchers("/test")
                         .authenticated()
-                        .requestMatchers("/auth/login").permitAll()
-                        .requestMatchers("/auth/create-user").permitAll()
+                        .requestMatchers("/auth/login", "/swagger-ui/**", "/v3/api-docs/**", "/auth/create-user").permitAll()
+//                        .requestMatchers("/auth/create-user").permitAll()
+//                        .requestMatchers("/v3/api-docs/**").permitAll()
+//                        .requestMatchers("/swagger-ui/**").permitAll()
                         .anyRequest()
                         .authenticated())
                         .exceptionHandling(ex -> ex.authenticationEntryPoint(point))
