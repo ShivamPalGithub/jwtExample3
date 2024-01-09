@@ -1,0 +1,35 @@
+2024-01-09T17:06:39.894+05:30  INFO 9504 --- [main] com.jwt.example.JwtExample3Application   : Starting JwtExample3Application using Java 17.0.5 with PID 9504 (C:\Users\shiva\OneDrive\Desktop\path\jwtExample3\jwtExample3\target\classes started by shiva in C:\Users\shiva\OneDrive\Desktop\path\jwtExample3\jwtExample3)
+2024-01-09T17:06:39.902+05:30  INFO 9504 --- [main] com.jwt.example.JwtExample3Application   : No active profile set, falling back to 1 default profile: "default"
+2024-01-09T17:06:41.504+05:30  INFO 9504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-09T17:06:41.625+05:30  INFO 9504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interfaces.
+2024-01-09T17:06:42.870+05:30  INFO 9504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-01-09T17:06:42.893+05:30  INFO 9504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-09T17:06:42.900+05:30  INFO 9504 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-01-09T17:06:43.125+05:30  INFO 9504 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-09T17:06:43.130+05:30  INFO 9504 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3118 ms
+2024-01-09T17:06:43.417+05:30  INFO 9504 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-09T17:06:43.546+05:30  INFO 9504 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2024-01-09T17:06:43.554+05:30  INFO 9504 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-01-09T17:06:44.026+05:30  INFO 9504 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-09T17:06:44.085+05:30  INFO 9504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-09T17:06:44.569+05:30  INFO 9504 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c9cafa5
+2024-01-09T17:06:44.574+05:30  INFO 9504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-09T17:06:44.819+05:30  WARN 9504 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-09T17:06:44.841+05:30  WARN 9504 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-01-09T17:06:46.440+05:30  INFO 9504 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-09T17:06:46.528+05:30  INFO 9504 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-09T17:06:47.450+05:30  WARN 9504 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-09T17:06:49.223+05:30  INFO 9504 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6d4df1d2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70ca8e72, org.springframework.security.web.context.SecurityContextHolderFilter@4c31b6c2, org.springframework.security.web.header.HeaderWriterFilter@2530baf6, org.springframework.security.web.authentication.logout.LogoutFilter@4d529dbf, com.jwt.example.sercurity.JwtAuthenticationFilter@3472f3ab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e8b36af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@202b5293, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34e7cde3, org.springframework.security.web.session.SessionManagementFilter@714d7c7b, org.springframework.security.web.access.ExceptionTranslationFilter@81a56b2, org.springframework.security.web.access.intercept.AuthorizationFilter@729de0e1]
+2024-01-09T17:06:49.758+05:30  INFO 9504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-01-09T17:06:49.788+05:30  INFO 9504 --- [main] com.jwt.example.JwtExample3Application   : Started JwtExample3Application in 10.65 seconds (process running for 11.417)
+2024-01-09T17:08:22.681+05:30  INFO 9504 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-09T17:08:22.682+05:30  INFO 9504 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-09T17:08:22.689+05:30  INFO 9504 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-01-09T17:08:22.721+05:30  INFO 9504 --- [http-nio-8081-exec-1] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-01-09T17:08:22.721+05:30  INFO 9504 --- [http-nio-8081-exec-1] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-01-09T17:08:22.895+05:30  INFO 9504 --- [http-nio-8081-exec-1] c.jwt.example.controller.AuthController  : Password :123
+2024-01-09T17:08:23.227+05:30  INFO 9504 --- [http-nio-8081-exec-1] c.j.e.service.CustomUserDetailService    : username : shviam@gmail.com
+2024-01-09T17:08:23.326+05:30  INFO 9504 --- [http-nio-8081-exec-1] c.j.e.service.CustomUserDetailService    : username : shviam@gmail.com
+2024-01-09T17:08:23.326+05:30  INFO 9504 --- [http-nio-8081-exec-1] c.jwt.example.controller.AuthController  : username :shviam@gmail.com
+2024-01-09T17:08:23.326+05:30  INFO 9504 --- [http-nio-8081-exec-1] c.jwt.example.controller.AuthController  : Password :$2a$10$jujxZsM.42PnZAOHZBWINuIdHNeOH9GjBp2Sw5msxed0tUYkV3kfG
+2024-01-09T17:08:23.327+05:30  INFO 9504 --- [http-nio-8081-exec-1] c.jwt.example.controller.AuthController  : userDetails :User(userId=744cc376-ae8e-4f1b-87ad-00e24d5bc86d, name=pal, email=shviam@gmail.com, password=$2a$10$jujxZsM.42PnZAOHZBWINuIdHNeOH9GjBp2Sw5msxed0tUYkV3kfG)

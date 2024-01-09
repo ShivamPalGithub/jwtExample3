@@ -23,13 +23,11 @@ public class JwtHelper {
 
     //retrieve username from jwt token
     public String getUsernameFromToken(String token) {
-//        System.out.println("getUserNameFromToken======> :"+token, Claims::getSubject);
         return getClaimFromToken(token, Claims::getSubject);
     }
 
     //retrieve expiration date from jwt token
     public Date getExpirationDateFromToken(String token) {
-        System.out.println("getExpirationDateFromToken======> :"+getClaimFromToken(token, Claims::getExpiration));
         return getClaimFromToken(token, Claims::getExpiration);
     }
 
